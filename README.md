@@ -12,5 +12,7 @@ How to use:
 - Use the returned NSDictionary
 
 e.g.
+```
 MyClass *instance = [MyClass alloc] initWithSomeAwesomeValue:value ...
 NSDictionary *representation = [instance dictionaryRepresentation];
+```
