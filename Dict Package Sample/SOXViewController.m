@@ -7,7 +7,8 @@
 //
 
 #import "SOXViewController.h"
-
+#import "SOXSampleModel.h"
+#import "NSObject+SOXDictRepresentation.h"
 @interface SOXViewController ()
 
 @end
@@ -27,5 +28,9 @@
 }
 
 - (IBAction)logDictRepresentation:(id)sender {
+    SOXSampleModel *sample = [SOXSampleModel samplePerson];
+    NSDictionary *representation = [sample dicionaryRepresentation];
+    NSLog(@"representation = %@", representation);
 }
+
 @end
