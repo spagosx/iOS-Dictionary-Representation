@@ -22,6 +22,7 @@
 		10D62CC618B55A6700D001B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10D62CC418B55A6700D001B2 /* InfoPlist.strings */; };
 		10D62CC818B55A6700D001B2 /* Dict_Package_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D62CC718B55A6700D001B2 /* Dict_Package_SampleTests.m */; };
 		10D62CD318B55AAB00D001B2 /* NSObject+SOXDictRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D62CD218B55AAB00D001B2 /* NSObject+SOXDictRepresentation.m */; };
+		10D62CD718B5607900D001B2 /* SOXSampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D62CD618B5607900D001B2 /* SOXSampleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		10D62CC718B55A6700D001B2 /* Dict_Package_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dict_Package_SampleTests.m; sourceTree = "<group>"; };
 		10D62CD118B55AAB00D001B2 /* NSObject+SOXDictRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SOXDictRepresentation.h"; sourceTree = "<group>"; };
 		10D62CD218B55AAB00D001B2 /* NSObject+SOXDictRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SOXDictRepresentation.m"; sourceTree = "<group>"; };
+		10D62CD518B5607900D001B2 /* SOXSampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOXSampleModel.h; sourceTree = "<group>"; };
+		10D62CD618B5607900D001B2 /* SOXSampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOXSampleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				10D62CAE18B55A6700D001B2 /* Main.storyboard */,
 				10D62CB118B55A6700D001B2 /* SOXViewController.h */,
 				10D62CB218B55A6700D001B2 /* SOXViewController.m */,
+				10D62CD518B5607900D001B2 /* SOXSampleModel.h */,
+				10D62CD618B5607900D001B2 /* SOXSampleModel.m */,
 				10D62CD418B55DE300D001B2 /* Dictionary Representation Category */,
 				10D62CB418B55A6700D001B2 /* Images.xcassets */,
 				10D62CA318B55A6600D001B2 /* Supporting Files */,
@@ -267,6 +272,7 @@
 				10D62CA918B55A6700D001B2 /* main.m in Sources */,
 				10D62CAD18B55A6700D001B2 /* SOXAppDelegate.m in Sources */,
 				10D62CB318B55A6700D001B2 /* SOXViewController.m in Sources */,
+				10D62CD718B5607900D001B2 /* SOXSampleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
