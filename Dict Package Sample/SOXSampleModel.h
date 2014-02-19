@@ -26,6 +26,8 @@
 @property (copy, nonatomic) NSString *telephone; // americans don't use just numbers?
 @property (nonatomic) NSString *address;
 
+@property (assign, nonatomic) BOOL hasChildren;
+
 /**
  * 
  * Return a SOXSampleModel object under the aspect of a person

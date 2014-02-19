@@ -24,6 +24,7 @@
         _weight = @165;
         _telephone = @"+44 123 456 789";
         _address = @"1 The Street, Anytown, Nicecounty, XY3 ZA2, UK";
+        _hasChildren = YES;
     }
     
     return self;
