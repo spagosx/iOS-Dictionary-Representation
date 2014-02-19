@@ -18,11 +18,11 @@
 
 - (NSArray *)propertyNames {
     
-    NSMutableSet *propertiesNames = [NSMutableSet set];
-
     NSUInteger outCount;
-
+    
     objc_property_t *properties = class_copyPropertyList([[self class] class], &outCount);
+    
+    NSMutableSet *propertiesNames = [NSMutableSet set];
     
     for (NSUInteger i = 0; i < outCount; i++) {
         objc_property_t property = properties[i];
