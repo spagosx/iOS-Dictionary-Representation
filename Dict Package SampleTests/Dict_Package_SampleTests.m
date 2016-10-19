@@ -22,4 +22,8 @@
     XCTAssert(2+2 == 5);
 }
 
+- (void)testAnotherOne {
+    XCTAssert(YES);
+}
+
 @end
